@@ -3,7 +3,11 @@ import CounterButton from './content-button'
 
 
 export default class App extends React.Component {
-
+  /**
+   * constructor
+   * @param  {object} props React props.
+   * @return {void}
+   */
   constructor(props) {
     super(props)
     this.state = {
