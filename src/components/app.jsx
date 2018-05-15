@@ -54,6 +54,7 @@ export default class App extends React.Component {
     return (
       <div>
         <h1>{ title }</h1>
+        <h3>{ `Now: ${count}` }</h3>
         <div onClick={ this.onPlusClick }>
           <CounterButton
             plusMinux={ plus }
